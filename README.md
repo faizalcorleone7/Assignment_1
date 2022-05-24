@@ -1,4 +1,5 @@
-Rails API for generating SSL certificates - ssl_certificate_generator/
+Rails API for generating SSL certificates - ssl_certificate_api/
+
 Test connection - lib/test_connection.rb
 
 To run Rails API, please run following steps -
