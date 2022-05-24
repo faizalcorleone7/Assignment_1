@@ -1,0 +1,37 @@
+Started GET "/certificate?no_of_bits=222&start_date_time=2022-05-24" for 127.0.0.1 at 2022-05-24 12:26:15 +0530
+  [1m[35m (12.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CertificateController#generate_certificate as */*
+  Parameters: {"no_of_bits"=>"222", "start_date_time"=>"2022-05-24"}
+Completed 500 Internal Server Error in 12ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 2223)
+
+
+Started GET "/certificate?no_of_bits=2048&start_date_time=2021-04-14" for 127.0.0.1 at 2022-05-24 12:26:16 +0530
+Processing by CertificateController#generate_certificate as */*
+  Parameters: {"no_of_bits"=>"2048", "start_date_time"=>"2021-04-14"}
+Completed 200 OK in 127ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 433)
+
+
+Started GET "/certificate?no_of_bits=512&start_date_time=2021-04-14" for 127.0.0.1 at 2022-05-24 12:26:16 +0530
+Processing by CertificateController#generate_certificate as */*
+  Parameters: {"no_of_bits"=>"512", "start_date_time"=>"2021-04-14"}
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 243)
+
+
+Started GET "/certificate?no_of_bits=1827&start_date_time=2021-04-14" for 127.0.0.1 at 2022-05-24 12:26:16 +0530
+Processing by CertificateController#generate_certificate as */*
+  Parameters: {"no_of_bits"=>"1827", "start_date_time"=>"2021-04-14"}
+Completed 200 OK in 109ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 242)
+
+
+Started GET "/certificate?no_of_bits=2048&start_date_time=2022-05-24" for 127.0.0.1 at 2022-05-24 12:26:16 +0530
+Processing by CertificateController#generate_certificate as */*
+  Parameters: {"no_of_bits"=>"2048", "start_date_time"=>"2022-05-24"}
+Completed 200 OK in 40ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 242)
+
+
+Started GET "/certificate?no_of_bits=2048&start_date_time=2020-05-24" for 127.0.0.1 at 2022-05-24 12:26:16 +0530
+Processing by CertificateController#generate_certificate as */*
+  Parameters: {"no_of_bits"=>"2048", "start_date_time"=>"2020-05-24"}
+Completed 200 OK in 79ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 242)
+
+
